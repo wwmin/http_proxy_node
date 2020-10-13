@@ -82,4 +82,4 @@ var proxy = httpProxy.createProxyServer({
 
 如果`3000/index.html`也能请求则说明该方法成功了.
 
-本文git地址:https://github.com/wwmin/http_proxy_node
+本文github地址:https://github.com/wwmin/http_proxy_node
