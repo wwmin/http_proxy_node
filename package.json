@@ -1,0 +1,18 @@
+{
+  "name": "http_proxy_node",
+  "version": "1.0.0",
+  "description": "proxy url",
+  "main": "app.js",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "proxy"
+  ],
+  "author": "wwmin",
+  "license": "ISC"
+}

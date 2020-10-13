@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>测试转发请求</title>
+</head>
+
+<body>
+    <h2>请求成功了</h2>
+    <p>时间: <span id="now"></span></p>
+</body>
+<script>
+    var nowDom = document.getElementById("now");
+    nowDom.innerText = now();
+    function now() {
+        var now = new Date();
+        return now.toLocaleDateString()+" "+now.getHours()+":"+now.getMinutes()+":"+now.getSeconds();
+    }
+</script>
+
+</html>
